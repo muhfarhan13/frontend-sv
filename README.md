@@ -1,8 +1,37 @@
-# React + Vite
+# Frontend-sv
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+Ini adalah frontend berbasis React.js yang digunakan untuk mengelola artikel pada [Microservice](https://github.com/muhfarhan13/microservice) dengan backend Go (Golang) yang menyediakan API untuk CRUD data artikel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Teknologi yang Digunakan
+
+- ReactJs, Vite, SweetAlert
+
+## 🚀 Instalasi & Menjalankan Proyek
+
+#### 1. Clone Repository
+```
+git clone https://github.com/muhfarhan13/frontend-sv
+cd frontend-sv
+```
+
+#### 2. Instalasi Dependency
+```
+npm install
+```
+atau bisa menggunakan yarn
+```
+yarn
+``` 
+
+3. Jalankan Aplikasi
+```
+npm run dev
+```
+atau bisa menggunakan yarn
+```
+yarn dev
+``` 
+
+Aplikasi akan berjalan di http://localhost:5173 secara default.
